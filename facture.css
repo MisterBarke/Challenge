@@ -1,0 +1,103 @@
+
+
+
+.boite{
+background-color: white;
+height: 70%;
+width: 60rem;
+position: absolute;
+top: 6rem;
+left: 23rem;
+border-top-left-radius: 15px;
+border-top-right-radius: 15px;
+}
+th{
+    width: 59rem;
+    border: 1px solid rgb(185, 177, 177);
+    text-align: justify;
+    border-right: none;
+    border-left: none;
+}
+td{ border:1px solid rgb(168, 157, 157);
+    border-left: none;
+    
+    
+}
+.border1{
+    border-right: none;
+}
+table{
+    border-collapse: collapse;
+    width:58rem;
+    height: 55vh;
+    text-align: center;
+    
+    
+    color: rgb(124, 113, 113);
+}
+/* .border2{
+border-bottom: none; */
+
+.border3{
+    border-bottom: none;
+    border-right: none;
+    }
+#tableuh{
+margin-top: 10%;
+ width: 65%;
+padding-left: 1%;
+}
+
+
+.voir{
+width: 70px;
+height: 25px;
+ background-color: #0e96a5;
+ border: none;
+color: white;
+border-radius: 5px;
+
+}
+.test{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+}
+
+.input{
+    background-color: rgb(243, 240, 240);
+     border:none;
+     border-radius: 6px; 
+     height: 2rem;
+      width: 15rem ;    
+}
+.input:focus{
+    border:1px solid green;
+}
+#re {
+font-size: 20px;
+position: relative;
+right: 13.9rem;
+top: 0.2rem;
+} 
+
+tr:hover{
+    background-color: rgb(240, 234, 234);
+}
+
+#ir{
+    color: red;
+}
+.hover4{
+    background-color: #c0e2ea;
+    width: 15rem;
+    border-radius: 10px;
+    height: 3rem;
+}
+.hover6{
+    background-color: #c0e2ea;
+    width: 15rem;
+    border-radius: 10px;
+    height: 3rem;
+}
+
