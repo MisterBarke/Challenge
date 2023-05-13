@@ -1,0 +1,47 @@
+.contenu-detail{
+    height: 90rem;
+     width: 62rem;
+   
+    background-color: white;
+    position: absolute;
+    top: 5rem;
+    left: 23rem;
+    border-radius: 15px;
+   padding: 2%;
+}
+table{
+    border-collapse: collapse;
+    color: #8f8a8a;
+
+}
+.table1{
+    width: 95%;
+    border: 1px solid;
+    margin-left: 3%;
+
+    
+   
+}
+td{
+  padding: 4px;
+  
+}
+.linear{
+    display: flex;
+    margin-left: 4%;
+   
+}
+.comments{
+    margin-left: 5%;
+
+}
+.x{
+ 
+   display: flex;
+   justify-content: flex-end;
+   margin-top: 20%;
+
+}
+tr:hover{
+    background-color:#cccccc84;
+}

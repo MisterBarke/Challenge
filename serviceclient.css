@@ -1,0 +1,57 @@
+.container-service{
+    height: 83%;
+     width: 62rem;
+   
+    background-color: white;
+    position: absolute;
+    top: 5rem;
+    left: 23rem;
+    border-radius: 15px;
+   padding: 2%;
+}
+.img-1{
+    height: 3rem;
+}
+.text{
+    width: 60rem;
+    height: 2rem;
+    border-radius: 13px;
+    background-color: #cccccc84;
+    border: none;
+    margin-top: 1%;
+}
+.title{
+    color: #a2a2a2;
+    margin-left: 3px;
+    font-size: 18px;
+    
+}
+.text2{
+    width: 60rem;
+    height: 41rem;
+    border-radius: 13px;
+    background-color: #cccccc84;
+    border: none;
+    margin-top: 1%;
+}
+.title2{
+    color: #a2a2a2;
+    margin-left: 3px;
+    font-size: 18px;
+}
+.btn3{
+    width: 60rem;
+    height: 2rem;
+    border-radius: 10px;
+    border: none;
+    background-color: #3697ab;
+    margin-top: 2%;
+    color: white;
+    font-size: 20px;
+}
+.hover2{
+    background-color: #c0e2ea;
+    width: 15rem;
+    border-radius: 10px;
+    height: 3rem;
+}

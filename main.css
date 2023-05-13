@@ -1,7 +1,10 @@
 body{
     background-color: #c0e2ea;
-    max-width: 1440px;
-    margin: 0 auto;
+    overflow-x: hidden;
+   
+    
+ 
+   
 
 }
 .main{
@@ -16,39 +19,34 @@ body{
 }
 li{
     list-style-type: none;
-    height: 4rem;
+   margin-top: 1.5rem;
   font-size: 23px;
-  position: relative;
+  
+  
   
 
-   
+}
+.spp{
+    margin-left: 2rem
 }
 li, a{
     text-decoration: none;
     color: grey;
-    
+   
+}
 
-    
- 
-    
-    
-}
-.fa-solid{
-    margin-right: 1rem;
-    margin-left: -1rem;
-}
 
 .nav-items{
-    width: 110vh;
+    width: 67rem;
     height: 4rem;
     background-color: white;
-    position: fixed;
-    left: 22.5rem;  
+    position: absolute;
+    left: 23rem;  
 }
 .bottom-list{
     position: absolute;
     left: -0.2rem;
-  bottom: 0;
+  bottom: 1rem;
 }
 .fa-regular{
     font-size: 30px;
@@ -57,4 +55,12 @@ li, a{
     display: flex;
     justify-content: flex-end;
     align-items: center;
+}
+li:hover{
+    background-color: #c0e2ea;
+    width: 15rem;
+    border-radius: 10px;
+    height: 3rem;
+  
+
 }
