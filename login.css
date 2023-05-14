@@ -81,9 +81,11 @@ body {
         }
      /* Styles pour l'animation hover du buton*/
     .but:hover{
-      background-color:white;
+      background-color:#ffffff;
+      border: 2px solid #1898a8 ;
       color: #1898a8;
-      border-color:#1898a8 ;
+      
+      
      
     }
      /* Styles pour le conteneur global*/
