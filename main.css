@@ -107,6 +107,9 @@ li:hover{
 .side-list{
     margin-top: 4rem;
 }
+.menu{
+    display: none;
+}
     
 }
 /*________MOBILE_________>>>>>>>MOBILE*/
@@ -117,10 +120,22 @@ li:hover{
         display: none;
 }
 .nav-items{
-    width: 22rem;
+    width: 23rem;
     height: 4rem;
     background-color: white;
     position: absolute;
     left: 1rem;  
 }
+.menu{
+    display: block;
+   margin-top: 1rem;
+   font-size: 25px;
+    
+}
+#drawer:target{
+    display: block;
+}
+.items{
+    margin-top: -2rem;
+ }
 }

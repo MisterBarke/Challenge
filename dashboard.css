@@ -131,9 +131,17 @@
  
 }
 
+.menu{
+    display: none;
+}
+
 /*________tablet screen_________>>>>>_*/
 
 @media screen and (max-width:768px) {
+    .nav-items{
+        width: 33.5rem;
+        
+    }
     .content2{
         height: 30rem;
         width: 17rem;
@@ -184,6 +192,16 @@
 /*________MOBILE_________>>>>>>>MOBILE*/
 
 @media screen and (max-width:375px) {
+
+    .menu{
+        display: block;
+       margin-top: 1rem;
+       font-size: 25px;
+        
+    }
+    #drawer:target{
+        display: block;
+    }
     .cards{
         padding: 10%;
       display: flex;
@@ -226,7 +244,15 @@
         height: 30rem;
         width: 17rem;
         position: absolute;
-        left: 3rem;
+        left: 5rem;
         top: 5rem;
     }
+    .nav-items{
+        width: 22rem;
+        height: 4rem;
+        background-color: white;
+        position: absolute;
+        left: 1rem;  
+    }
+    
 }
