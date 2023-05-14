@@ -3,7 +3,7 @@
 
 .boite{
 background-color: white;
-height: 70%;
+height: 50rem;
 width: 60rem;
 position: absolute;
 top: 6rem;
@@ -29,7 +29,7 @@ td{ border:1px solid rgb(168, 157, 157);
 table{
     border-collapse: collapse;
     width:58rem;
-    height: 55vh;
+    height: 43rem;
     text-align: center;
     
     
@@ -43,7 +43,7 @@ border-bottom: none; */
     border-right: none;
     }
 #tableuh{
-margin-top: 10%;
+
  width: 65%;
 padding-left: 1%;
 }
