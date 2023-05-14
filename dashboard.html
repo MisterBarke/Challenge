@@ -14,7 +14,7 @@
     <main class="main">
         <section class="sideBar">
             <div class="side-container">
-                <div><img src="logo.png" style="width: 22rem;" alt="Logo enval"></div>
+                <div><img class="logo" src="logo.png" style="width: 22rem;" alt="Logo enval"></div>
                 <div class="side-list">
                     <ul>
                         <li class="hover">
@@ -88,14 +88,220 @@
             <div class="content2">
                 <div class="cards">
                     <div class="card-1">
-                        <label for="">Analyse Positive</label>
-                        <div class="card-1-1"></div>
+                        <label class="label1" for="">Analyse Positive</label>
+                        <div class="card-1-1">
+                            <i id="bolt" class="fa-solid fa-bolt"></i>
+                            <span class="P">Positif</span>
+                            <div class="canvas1">
+                                
+                                <canvas id="myChart2">
+                                
+                                </canvas>
+                                
+
+                              </div>
+                              <p class="A-B">80%</p>
+                        </div>
+                        
 
                     </div>
+                    <div class="card-2">
+                        <label class="label2" for="">Analyse Négatives</label>
+                        <div class="card-1-2">
+                            <div class="rond"> <i id="droplet" class="fa-solid fa-droplet"></i></div>
+                            <span class="Q">Négatif</span>
+                            <div class="canvas2">
+                                
+                                <canvas id="myChart3">
+                                
+                                </canvas>
+                                
+
+                              </div>
+                              <p class="B-A">50%</p>
+                        </div>
                 </div>
             </div>
+            <label class="label3" for="">Analyses Positives</label>
+            <div class="canvas">
+                <canvas id="myChart1"></canvas>
+              </div>
+    
+              <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+              <script>
+
+
+                const ctx = document.getElementById('myChart1');
+    
+                new Chart(ctx, {
+    
+                  type: 'bar',
+                  data: {
+                    labels: ['Jan', 'Feb', 'MARCH', 'APRIL', 'MAY', 'JUNE', 'JULY', 'AUG', 'SEPT', 'OCT', 'NOV', 'DEC'],
+                    datasets: [{
+    
+                      data: [10, 18, 24, 20, 13, 7, 9, 10, 11, 12, 13, 14],
+                      backgroundColor: [
+                        'white'
+                      ],
+                      hoverBackgroundColor: [
+                        '#4A96A6'
+                      ]
+    
+    
+    
+                    }]
+                  },
+                  options: {
+    
+    
+                    maintainAspectRatio: false,
+                    plugins: {
+                      legend: {
+                        display: false,
+                      }
+                    },
+    
+    
+                    scales: {
+                      y: {
+                        beginAtZero: true,
+                        display: false,
+    
+                      },
+                      x: {
+                        grid: {
+                          color: 'white',
+                        }
+                      }
+    
+    
+                    }
+    
+                  }
+                });
+    
+              </script>
+              <script>
+
+
+                const ftx = document.getElementById('myChart2');
+    
+                new Chart(ftx, {
+    
+                  type: 'doughnut',
+                  data: {
+                    labels: ['NOV', 'DEC'],
+                    datasets: [{
+                       
+    
+                      data: [14, 3],
+                      backgroundColor: [
+                        'white', '#ffffff68'
+                      ],
+                      
+                    }]
+                  },
+                  options: {
+                    cutout: 92,
+                
+                    radius: '100',
+                    circumference: '300',
+                    rotation: '211',
+                    borderWidth: '0',
+                    maintainAspectRatio: false,
+                    plugins: {
+                      legend: {
+                        display: false,
+                      }
+                    },
+    
+    
+                    scales: {
+                      y: {
+                        beginAtZero: true,
+                        display: false,
+    
+                      },
+                      x: {
+                        display: false,
+                        grid: {
+                          color: 'white',
+                        }
+                      }
+    
+    
+                    }
+    
+                  }
+                });
+    
+              </script>
+    
+    
+        </div>
 
         </section>
+        <script>
+
+
+            const vtx = document.getElementById('myChart3');
+
+            new Chart(vtx, {
+
+              type: 'doughnut',
+              data: {
+                labels: ['NOV', 'DEC'],
+                datasets: [{
+                   
+
+                  data: [50, 50],
+                  backgroundColor: [
+                    '#1898A8', '#1897a85c'
+                  ],
+                  
+                }]
+              },
+              options: {
+                cutout: 92,
+            
+                radius: '100',
+                circumference: '300',
+                rotation: '211',
+                borderWidth: '0',
+                maintainAspectRatio: false,
+                plugins: {
+                  legend: {
+                    display: false,
+                  }
+                },
+
+
+                scales: {
+                  y: {
+                    beginAtZero: true,
+                    display: false,
+
+                  },
+                  x: {
+                    display: false,
+                    grid: {
+                      color: 'white',
+                    }
+                  }
+
+
+                }
+
+              }
+            });
+
+          </script>
+
+
+    </div>
+
+    </section>
     </main>
 </body>
 </html>

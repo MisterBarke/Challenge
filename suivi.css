@@ -6,7 +6,8 @@
     position: absolute;
     top: 5rem;
     left: 23rem;
-    border-radius: 15px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
    padding: 2%;
 }
 .divider{
@@ -38,12 +39,10 @@ td {
       background:  #4A96A6;
       color: white;
 }
-.bord2{
-    border-bottom: none;
-}
+
 .bord3{
     border-right: none;
-    border-bottom: none;
+   
     text-align: center;
 }
 .échantillons{
@@ -60,14 +59,43 @@ tr:hover{
     color: black;
 }
 .table-B{
-    height: 78vh;
-     width: 93vh;
+    height: 39rem;
+     width: 60rem;
 }
 .hover1{
     background-color: #c0e2ea;
     width: 15rem;
     border-radius: 10px;
     height: 3rem;
+}
+
+
+/*________tablet screen_________>>>>>_*/
+
+@media screen and (max-width: 768px) {
+    .hover1{
+        background-color: #c0e2ea;
+        width: 2rem;
+        border-radius: 10px;
+        height: 3rem;
+        padding: 7%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .contain{
+        height: 50rem;
+         width: 37rem;
+        top: 5rem;
+        left: 8rem;
+       padding: 2%;
+    }
+    .table-B{
+        height: 50rem;
+         width: 37rem;
+    }
+
+    
 }
 
 

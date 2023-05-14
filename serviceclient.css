@@ -1,12 +1,13 @@
 .container-service{
-    height: 83%;
+    height: 50rem;
      width: 62rem;
    
     background-color: white;
     position: absolute;
     top: 5rem;
     left: 23rem;
-    border-radius: 15px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
    padding: 2%;
 }
 .img-1{
@@ -54,4 +55,61 @@
     width: 15rem;
     border-radius: 10px;
     height: 3rem;
+}
+input:focus{
+    outline-color: #79B51C ;
+}
+
+/*________tablet screen_________>>>>>_*/
+
+@media screen and (max-width: 768px) {
+    .hover2{
+        background-color: #c0e2ea;
+        width: 2rem;
+        border-radius: 10px;
+        height: 3rem;
+        padding: 7%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container-service{
+        height: 50rem;
+         width: 38rem;
+        background-color: white;
+        position: absolute;
+        top: 5rem;
+        left: 7rem;
+       border-top-right-radius: 15px;
+       border-top-left-radius: 15px;
+       padding: 2%;
+    }
+    .text{
+        width: 37rem;
+        height: 2rem;
+        border-radius: 13px;
+        background-color: #cccccc84;
+        border: none;
+        margin-top: 1%;
+    }
+    .text2{
+        width: 37rem;
+        height: 41rem;
+        border-radius: 13px;
+        background-color: #cccccc84;
+        border: none;
+        margin-top: 1%;
+    }
+    .btn3{
+        width: 37rem;
+        height: 2rem;
+        border-radius: 10px;
+        border: none;
+        background-color: #3697ab;
+        margin-top: 2%;
+        color: white;
+        font-size: 20px;
+    }
+
+    
 }

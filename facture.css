@@ -49,14 +49,18 @@ padding-left: 1%;
 }
 
 
-.voir{
-width: 70px;
-height: 25px;
- background-color: #0e96a5;
- border: none;
-color: white;
-border-radius: 5px;
-
+.btn2{
+    width: 5rem; 
+    height: 2rem;
+     border-radius: 7px; 
+     border: none;
+      background:  #4A96A6;
+      color: white;
+}
+.btn2:hover{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid #4A96A6;
+    color: black;
 }
 .test{
     display: flex;
@@ -71,18 +75,25 @@ border-radius: 5px;
      height: 2rem;
       width: 15rem ;    
 }
-.input:focus{
-    border:1px solid green;
-}
+
 #re {
 font-size: 20px;
 position: relative;
 right: 13.9rem;
 top: 0.2rem;
 } 
+.tableau{
+    margin-top: 10%;
+    
+    padding-left: 1%;
+    }
 
 tr:hover{
     background-color: rgb(240, 234, 234);
+}
+.myTr:hover{
+    background-color: transparent;
+            
 }
 
 #ir{
@@ -92,12 +103,108 @@ tr:hover{
     background-color: #c0e2ea;
     width: 15rem;
     border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7%;
     height: 3rem;
 }
 .hover6{
     background-color: #c0e2ea;
     width: 15rem;
     border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    padding: 7%;
+    align-items: center;
     height: 3rem;
+}
+ input:focus{
+    outline-color: #79B51C ;
+    
+}
+
+
+/*________tablet screen_________>>>>>_*/
+
+@media screen and (max-width: 768px) {
+    .hover4{
+        background-color: #c0e2ea;
+        width: 2rem;
+        border-radius: 10px;
+        height: 3rem;
+        padding: 7%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .hover6{
+        background-color: #c0e2ea;
+        width: 2rem;
+        border-radius: 10px;
+        height: 3rem;
+        padding: 7%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .boite{
+        background-color: white;
+        height: 47rem;
+        width: 40rem;
+        position: absolute;
+        top: 6rem;
+        left: 7rem;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        }
+        table{
+            border-collapse: collapse;
+            width:38rem;
+            height: 40rem;
+            text-align: center;
+            color: rgb(124, 113, 113);
+        }
+        
+       
+
+    
+
+    
+}
+
+/*________MOBILE_________>>>>>>>MOBILE*/
+
+@media screen and (max-width:375px) {
+    .boite{
+        background-color: white;
+        height: 47rem;
+        width: 22rem;
+        position: absolute;
+        top: 6rem;
+        left: 1rem;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        }
+        .input{
+            background-color: rgb(243, 240, 240);
+             border:none;
+             border-radius: 6px; 
+             height: 2rem;
+              width: 20rem ; 
+              position: relative;
+            right: -1rem;   
+        }
+        
+        #re {
+        font-size: 20px;
+        position: relative;
+        right: 19rem;
+        top: 0.2rem;
+        } 
+        .fact{
+            display: none;
+        }
+
 }
 
